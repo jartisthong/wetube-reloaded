@@ -2,18 +2,20 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "The best way to watch videos.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jartisthong/wetube-reloaded.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "jartisthong",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jartisthong/wetube-reloaded/issues"
   },
-  "homepage": "https://github.com/jartisthong/wetube-reloaded#readme"
+  "homepage": "https://github.com/jartisthong/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
